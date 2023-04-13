@@ -1,0 +1,13 @@
+2023/04/12-15:10:08.668 143c Reusing MANIFEST C:\Users\benja\Music\dialog\tokens\name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/12-15:10:08.668 143c Recovering log #13
+2023/04/12-15:10:08.702 143c Reusing old log C:\Users\benja\Music\dialog\tokens\name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000013.log 
+2023/04/12-15:12:16.108 21c8 Level-0 table #18: started
+2023/04/12-15:12:16.133 21c8 Level-0 table #18: 1087189 bytes OK
+2023/04/12-15:12:16.134 21c8 Delete type=0 #13
+2023/04/12-15:12:16.137 21c8 Compacting 1@1 + 1@2 files
+2023/04/12-15:12:16.193 21c8 Generated table #19@1: 38942 keys, 2219564 bytes
+2023/04/12-15:12:16.198 21c8 Generated table #20@1: 6685 keys, 153446 bytes
+2023/04/12-15:12:16.198 21c8 Compacted 1@1 + 1@2 files => 2373010 bytes
+2023/04/12-15:12:16.198 21c8 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/04/12-15:12:16.199 21c8 Delete type=2 #15
+2023/04/12-15:12:16.199 21c8 Delete type=2 #18

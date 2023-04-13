@@ -21,14 +21,21 @@ venom
 function start(client) {
   client.onMessage(async(message) => {
       typo=typeof(message.body);
-      console.log(typo);
       session=message.from;
-      console.log(message.type);
+      
+      // console.log(typo);
+      // console.log(message.body);
+      // console.log(message.type);      
+
+      console.log(message)
+      console.log(message.type)
+      // console.log(message.isGroupMsg) || message.isGroupMsg === false
     
-    if (message.type=='chat' && message.isGroupMsg === false){
+    if (message.type=='chat' ){
             
             let payload= await dialogflow.sendToDialogFlow(message.body,session);
             let responses=payload.fulfillmentMessages;
+            console.log(payload)
     
             for (const response of responses) {
                 if(response.message==="text"){
